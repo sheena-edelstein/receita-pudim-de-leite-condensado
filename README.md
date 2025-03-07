@@ -1,6 +1,8 @@
 # Receita de Pudim de Leite Condensado
 Esse projeto foi feito na formação FullStack da Rocketseat. É um site simples em HTML e CSS que mostra uma receita de um pudim de leite condensado. Os principais aprendizados que eu adquiri fazendo esse projeto foram os conhecimentos adicionais em CSS e em tags semânticas no HTML, e eu considero esse aprendizado muito útil para a minha trajetória como entusiasta na área de desenvolvimento web.
 
+[Acesse o site aqui:](https://sheena-edelstein.github.io/receita-pudim-de-leite-condensado/)
+
 # Tecnologias Utilizadas:
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 <br>
