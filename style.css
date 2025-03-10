@@ -48,11 +48,20 @@ p {
     margin-bottom: 12px;
 }
 
-ul, ol, li {
+ul {
+    list-style: disc;
     padding-left: 20px;
     font-size: clamp(1rem, 2vw, 1.2rem);
     color: #573A37;
 }
+
+ol {
+    list-style: decimal;
+    padding-left: 20px;
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    color: #573A37;
+}
+
 
 footer {
     text-align: center;
