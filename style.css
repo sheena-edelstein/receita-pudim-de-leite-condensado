@@ -1,16 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-:root {
-    font-family: "Alice", serif;
-    color: #573A37;
-}
-
-body {* {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
@@ -69,70 +59,4 @@ footer {
     font-size: 1rem;
     background-color: #573A37;
     color: #F0E8C2;
-}
-
-    background-image: url(assets/background.png);
-    background-size: cover; /*A imagem de fundo cobre toda a área visível da página*/
-}
-
-#page {
-    box-sizing: border-box; /*Tira a adição de 800px + padding (24px) que tem por padrão*/
-    width: 800px;
-    padding: 24px;
-    background-color: #F0E8C2;
-    border-radius: 24px;
-    margin: 48px auto 28px;
-}
-
-img {
-    border-radius: 16px;
-}
-
-main {
-    padding: 24px;
-}
-
-section + section { /*Seção que tem seção anterior à ela*/
-    margin-top: 24px;
-}
-
-p + p { /*Parágrafo que tem um parágrafo anterior a ele*/
-    margin-top: 12px;
-}
-
-h1 {
-    line-height: 140%;
-    font-size: 40px;
-}
-
-h2 {
-    line-height: 150%;
-    font-size: 24px;
-}
-
-h3 {
-    line-height: 160%;
-    font-size: 20px;
-}
-
-h1, h2, h3 {
-    color: #291B1A;
-    margin-bottom: 4px;
-}
-
-li {
-    color: #573A37;
-}
-
-ul, ol {
-    padding-left: 24px;
-    color: #573A37;
-}
-
-footer {
-    color: #F0E8C2;
-    text-align: center;
-    padding: 20px 0;
-    font-size: 16px;
-    background-color: #573A37;
 }
