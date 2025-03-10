@@ -8,7 +8,69 @@
     color: #573A37;
 }
 
+body {* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: "Alice", serif;
+    color: #573A37;
+}
+
 body {
+    background-image: url(assets/background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#page {
+    max-width: 90%;
+    width: 800px;
+    padding: 24px;
+    background-color: #F0E8C2;
+    border-radius: 24px;
+    margin: 48px auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 16px;
+}
+
+h1 {
+    font-size: clamp(1.8rem, 4vw, 2.5rem);
+}
+
+h2 {
+    font-size: clamp(1.4rem, 3vw, 2rem);
+}
+
+h3 {
+    font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+}
+
+p {
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+
+ul, ol {
+    padding-left: 20px;
+    font-size: clamp(1rem, 2vw, 1.2rem);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 1rem;
+    background-color: #573A37;
+    color: #F0E8C2;
+}
+
     background-image: url(assets/background.png);
     background-size: cover; /*A imagem de fundo cobre toda a área visível da página*/
 }
