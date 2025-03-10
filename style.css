@@ -51,6 +51,7 @@ p {
 ul, ol, li {
     padding-left: 20px;
     font-size: clamp(1rem, 2vw, 1.2rem);
+    color: #573A37;
 }
 
 footer {
